@@ -285,9 +285,11 @@ img {
   }
 
   #team .flex-items {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     padding: 20px 0;
+    grid-template-columns: 1fr;
+    /* margin: 20px; */
   }
 
   #team .flex-items img {
